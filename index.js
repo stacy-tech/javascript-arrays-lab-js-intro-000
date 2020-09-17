@@ -14,12 +14,8 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   return kittens.shift()
 }
-function appendkitten() {
-  "Milo"
-  "Otis"
-  "Garfield"
-  arr.push("Sky")
-  console.log (arr)
+function appendkitten(name) {
+  return[ name,...Kittens]
 }
 function prependKitten(name) {
   return [name,...kittens]
