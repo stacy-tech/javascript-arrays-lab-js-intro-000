@@ -14,11 +14,12 @@ function destructivelyRemoveLastKitten() {
 function destructivelyRemoveFirstKitten() {
   return kittens.shift()
 }
-function appendkitten(name) {
-  var newArray = kittens.slice();
-  var newArray=[...kittens]
-  newArray.push(name)
-  return newArray
+function appendkitten() {
+  "Milo"
+  "Otis"
+  "Garfield"
+  arr.push("Sky")
+  console.log (arr)
 }
 function prependKitten(name) {
   return [name,...kittens]
